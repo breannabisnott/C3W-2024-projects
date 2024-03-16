@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Blog-Card</title>
+    <style>
+      .blog-card {
+        border: 1px solid pink;
+        width: 150px;
+        height: 250px;
+      }
+      .blog-card-detail{
+        height: 30px;
+      }
+      .blog-card-image {
+        /* border: 1px solid black; */
+        height: 50px;
+        overflow:hidden;
+      }
+      .blog-card-image > img{
+        width: 100%
+      }
+      .blog-card-button{
+        height: 34px;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+      }
+      .blog-card-button > input{
+        height: 20px;
+        background-color: rgb(173, 54, 74);
+        color: white;
+        border: none;
+      }
+      .blog-card-description{
+        font-size: 8px;
+        text-align: center;
+        padding: 0 15px 0 10px;
+      }
+      .blog-card-description > p {
+        font-size: 8px;
+        text-align: center;
+        padding: 0 10px 0 10px;
+      }
+      .blog-card-detail-icon{
+        height: 15px;
+      }
+      .blog-card-detail-text{
+        font-size: 10px;
+      }
+      .blog-card-container{
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "blog-card-container">
+        <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="mountain.jpg" alt="Mountains" />
+            </div>
+            <div class="blog-card-detail">
+              <img class="blog-card-detail-icon" src="calendar.png" alt="Calendar Icon"/>
+              <span class="blog-card-detail-text">AUG 4</span>
+            </div>
+            <div class="blog-card-detail">
+              <img class="blog-card-detail-icon" src="like.png" alt="Like Icon" />
+              <span class="blog-card-detail-text">50,000</span>
+            </div>
+            <div class="blog-card-description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s.
+              </p>
+            </div>
+            <div class="blog-card-button">
+              <input type="button" name ="" id="" value="READ MORE">
+            </div>
+          </div>
+    </div>
+
+    <div class = "blog-card-container">
+        <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="mountain.jpg" alt="Mountains" />
+            </div>
+            <div class="blog-card-detail">
+              <img class="blog-card-detail-icon" src="calendar.png" alt="Calendar Icon"/>
+              <span class="blog-card-detail-text">AUG 4</span>
+            </div>
+            <div class="blog-card-detail">
+              <img class="blog-card-detail-icon" src="like.png" alt="Like Icon" />
+              <span class="blog-card-detail-text">50,000</span>
+            </div>
+            <div class="blog-card-description">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+            </div>
+            <div class="blog-card-button">
+              <input type="button" name ="" id="" value="READ MORE">
+            </div>
+          </div>
+    </div>
+  </body>
+</html>

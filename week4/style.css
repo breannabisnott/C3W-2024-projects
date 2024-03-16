@@ -1,0 +1,25 @@
+p {
+    color: rgb(0, 0, 255);
+    background-color: orange;
+    margin: 0 0 0 0;
+    font-family: "Arial";
+    font-size: 36px;
+  }
+
+  div{
+    border: 1px red solid;
+    margin: 50px 0 0 0;
+    padding: 50px 0 0 50px;
+  }
+  .cool-paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  p.cool-paragraph{
+    background-color: pink;
+  }
+  div.cool-paragraph{
+    background-color: yellow;
+  }
+  .cooler-paragraph{
+    color: green;
+  }
